@@ -9,3 +9,8 @@ font-family: 'Roboto Slab', serif;
 
 Helvetica -> Inter
 font-family: 'Inter', sans-serif;
+
+GTAmerica -> Open Sans
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Dancing Script', cursive;
