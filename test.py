@@ -7,6 +7,6 @@ env = Environment(loader=file_loader)
 with open('stack.json') as json_file:
     data = json.load(json_file)
     ids = data["contact"]["recommended_ids"]
-template = env.get_template('./about.html')
+template = env.get_template('./dynamic_JorgeEmilioContrerasMoreno.html')
 output = template.render(data=data, ids=ids)
 print(output)
